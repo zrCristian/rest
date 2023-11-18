@@ -1,0 +1,12 @@
+{
+    "extends": "standard",
+    "rules": {
+      "indent": ["error", 4], // Regla de indentación personalizada
+      // "semi": ["error", "always"], // Requiere punto y coma al final de las declaraciones
+      "quotes": ["error", "single"], // Requiere comillas simples para las cadenas
+      "space-before-function-paren": ["error", "never"], // No se requiere espacio antes de los paréntesis en la declaración de la función
+      "eqeqeq": "off" // Deshabilitar la regla que requiere '===' en lugar de '=='
+
+
+    }
+  }
